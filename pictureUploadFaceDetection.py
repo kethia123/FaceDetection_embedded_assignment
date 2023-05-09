@@ -5,7 +5,7 @@ import cv2
 img = cv2.imread('DSC_0638_1.jpg')
 
 #resizing the image
-scale_percent = 50 # percent of original size
+scale_percent = 30 # percent of original size
 width = int(img.shape[1] * scale_percent / 100)
 height = int(img.shape[0] * scale_percent / 100)
 dim = (width, height)
